@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Proyecto de FullStack en JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "maurogd96@gmail.com"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "Mauricio Gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
