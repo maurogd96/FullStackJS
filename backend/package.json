@@ -5,8 +5,9 @@
   "description": "Proyecto de FullStack en JS",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-    },
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "repository": {
     "type": "git",
     "url": "maurogd96@gmail.com"
@@ -17,6 +18,13 @@
   "author": "Mauricio Gutierrez",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
